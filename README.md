@@ -38,7 +38,7 @@
   - **Windows (32-bit)**: [Reacher_Windows_x86.zip](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
   - **Windows (64-bit)**: [Reacher_Windows_x86_64.zip](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
 
-- Extract the zip file and update the 'file_name' parameter in the 'UnityEnvironment' initialization to point to the executable (e.g., '/path/to/Reacher_Linux_NoVis/Reacher.x86_64' for Linux).
+- Extract the zip file and update the 'file_name' parameter in the `UnityEnvironment` initialization to point to the executable (e.g., '/path/to/Reacher_Linux_NoVis/Reacher.x86_64' for Linux).
 
 ## Running the Code
 
