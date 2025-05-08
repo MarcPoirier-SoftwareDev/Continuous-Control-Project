@@ -38,7 +38,7 @@
   - **Windows (32-bit)**: [Reacher_Windows_x86.zip](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
   - **Windows (64-bit)**: [Reacher_Windows_x86_64.zip](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
 
-- Extract the zip file and update the 'file_name' parameter in the `UnityEnvironment` initialization to point to the executable (e.g., '/path/to/Reacher_Linux_NoVis/Reacher.x86_64' for Linux).
+- Extract the zip file and update the `file_name` parameter in the `UnityEnvironment` initialization to point to the executable (e.g., `/path/to/Reacher_Linux_NoVis/Reacher.x86_64` for Linux).
 
 ## Running the Code
 
@@ -49,17 +49,17 @@
   - Confirm all dependencies are installed.
 
 - Run the Notebook:
-  - Open the Jupyter notebook 'Continuous_Control.ipynb.'
+  - Open the Jupyter notebook `Continuous_Control.ipynb`.
   - Execute the cells in sequence to start training the agent.
 
 - Training Process:
   - The training loop displays progress for each episode, including the average score across all 20 agents.
   - Checkpoints are saved every 10 episodes, and training stops when the average score over 100 episodes reaches or exceeds 30.
-  - A plot of rewards per episode is generated and saved as 'ddpg_rewards_plot.png'.
+  - A plot of rewards per episode is generated and saved as `ddpg_rewards_plot.png`.
 
 ## Additional Information
 - The environment features 20 agents that learn simultaneously, sharing experiences to improve efficiency.
-- For implementation details, refer to the 'Continuous_Control.ipynb' notebook.
+- For implementation details, refer to the `Continuous_Control.ipynb` notebook.
 
 
 
