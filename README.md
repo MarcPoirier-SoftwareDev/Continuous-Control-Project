@@ -57,9 +57,5 @@ This project implements the **Deep Deterministic Policy Gradient (DDPG)** algori
   - Checkpoints are saved every 10 episodes, and training stops when the average score over 100 episodes reaches or exceeds 30.
   - A plot of rewards per episode is generated and saved as `ddpg_rewards_plot.png`.
 
-## Additional Information
-- The environment features 20 agents that learn simultaneously, sharing experiences to improve efficiency.
-- For implementation details, refer to the `Continuous_Control.ipynb` notebook.
-
 
 
