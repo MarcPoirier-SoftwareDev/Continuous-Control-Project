@@ -1,6 +1,6 @@
 # Continuous Control Project
 
----
+This project implements the **Deep Deterministic Policy Gradient (DDPG)** algorithm to train multiple robotic arms in the **Reacher environment** from Unity ML-Agents. The goal is to control the arms to track a moving target, earning rewards for keeping the end-effector close to the target. The environment is considered solved when the average reward over 100 consecutive episodes reaches at least +30 across all 20 agents.
 
 ## Environment Details
 
