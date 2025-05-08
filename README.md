@@ -21,7 +21,7 @@ This project implements the **Deep Deterministic Policy Gradient (DDPG)** algori
 - **Solving the Environment**:
   - The environment is considered solved when the **average reward over 100 consecutive episodes** (across all 20 agents) reaches at least **+30**.
 
----
+
 
 ## Installation Instructions
 
