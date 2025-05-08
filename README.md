@@ -1,1 +1,70 @@
-# Continuous-Control-Project
+# Continuous Control Project
+
+---
+
+## Environment Details
+
+- **State Space**:
+  - **Dimension**: 33 continuous variables per agent.
+  - **Components**:
+    - Joint positions
+    - Joint rotations
+    - Joint velocities
+    - Angular velocities
+    - Target position
+
+- **Action Space**:
+  - **Dimension**: 4 continuous variables per agent.
+  - **Range**: Each action value is between -1 and 1.
+  - **Meaning**: Torques applied to the four joints of the robotic arm.
+
+- **Solving the Environment**:
+  - The environment is considered solved when the **average reward over 100 consecutive episodes** (across all 20 agents) reaches at least **+30**.
+
+---
+
+## Installation Instructions
+
+### Dependencies
+- Install the required Python packages:
+  ```bash
+  pip install torch numpy matplotlib unityagents psutil
+
+### Downloading the Environment
+Download the Reacher environment based on your operating system:
+Linux: Reacher_Linux_NoVis.zip
+
+Mac: Reacher.app.zip
+
+Windows (64-bit): Reacher_Windows_x86_64.zip
+
+Extract the zip file and update the file_name parameter in the UnityEnvironment initialization to point to the executable (e.g., /path/to/Reacher_Linux_NoVis/Reacher.x86_64 for Linux).
+
+Running the Code
+Training the Agent
+Set Up the Environment:
+Ensure the Unity Reacher environment is downloaded and extracted.
+
+Verify the path to the executable is correctly set in the code.
+
+Confirm all dependencies are installed.
+
+Run the Notebook:
+Open the Jupyter notebook Continuous_Control.ipynb.
+
+Execute the cells in sequence to start training the agent.
+
+Training Process:
+The training loop displays progress for each episode, including the average score across all 20 agents.
+
+Checkpoints are saved every 10 episodes, and training stops when the average score over 100 episodes reaches or exceeds 30.
+
+A plot of rewards per episode is generated and saved as ddpg_rewards_plot.png.
+
+Additional Information
+The environment features 20 agents that learn simultaneously, sharing experiences to improve efficiency.
+
+For implementation details, refer to the Continuous_Control.ipynb notebook.
+
+
+
